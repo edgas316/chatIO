@@ -5,6 +5,7 @@ var express = require('express'),
 	usernames = []; // Array of Connected Users
 	
 server.listen(process.env.PORT || 3000);
+//http://boiling-earth-8256.herokuapp.com/
 
 app.get('/', function(req, res){
 	res.sendFile(__dirname + '/index.html');
